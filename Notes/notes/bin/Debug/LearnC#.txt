@@ -1,0 +1,236 @@
+Programing_Notes - C# Lectures done : intro,1,2,3,4,5,6,7,9,10,13,14,enums,Class Data Members
+..............
+What's_C#? - C# is object oriantated (a system of interacting objects), a natrual interface for the .NET framework. It 
+can create desktop apps and server-side apps.
+..............
+Visual_studio - a widely used commerical development enviroment. A project contains C# source files and resource files.
+A solution is a container that holds one or more projects.
+..............
+Common_Language_Infrastructure(CLI) - A virtual execution system (the runtime), common type system, the 
+framwork class libary.
+..............
+.NET - microsoft have their own implementation called the .NET framework and comprised of :
+- microsoft intermediate language (MSIL)
+- Common Language Runtime (CLR)
+- the .NET class libary
+..............
+Intermermediate_Code - all .NET apps comple to an intermediate language called MSIL. 
+Intermediate code is stored in a file called an assembly (an executable or a DLL).
+Assemblies are executed by an agent called the common language runtime - CLR.
+..............
+Common_language_runtime(CLR) - provides a just-in-time compliler (JIT) to convert MSIL to machine code. 
+CLR links in required class libarys if any and executes the apps. 
+..............
+.NET_Class_Library - contains classes for purposes such as database access, network access, visual components, 
+ASP .NET classes for web apps, general utilitys (date, string manipulation)
+.NET_Libarys - a reusable collection of code that you can utilise from your application. They're compiled into 
+.NET dll (dynamically linked library). To add a DLL to a project add it to the references folder for that 
+projext then include the appropriate namespaces (with using). Add Libary through references, right click 
+references, Add Reference, under assembkes select framework, add libray. 
+..............
+Unified_Modelling_Language(UML) - used tp repersent objects and their interactions, graphical modeling 
+language.
+............................
+: Person         : the classes name
+............................
+: name           :
+: address        : data members
+: age            :
+............................
+: getName()      : 
+: speak()        : behavioural members
+: jump()         :
+............................
+..............
+Namespaces - logical grouping of unique items and their names. In C# we use namespaces in which to search for 
+class names with the directive 'using.' (the code 1.)
+..............
+Data_members - (or instance data members) each instance has their own. each member can have multiple allowed 
+values. Data members are repersented by an instance variable. (the code 2.) 
+These are decleared inside class and outside methods.
+Behavioural Members - each instance has their own. each member allows interaction within the class or from 
+other objects outside the class. (the code 3.)
+..............
+State - is the state of an object at a particular time, a snapshot of it's values.
+..............
+Classes - the main class is the Application class, the others are called support classes.
+Only the main class has the main method because this is the class the CLI will execute first.
+..............
+ToString - build in method for every object. By defalt ToString returns the namespace and the class of the 
+Object, we can override this. (the code 4.)
+..............
+this. - when we refer to data members it is tidy is use 'this.' in front of them to indicate that they are 
+data members (this refers to the whole object).  It is usefuk for clarity, distinguish between local varibles 
+and properties.
+..............
+Constructors - special method which is auto called when object is created. can be used to initialise data 
+members. Doesnt return, name same as the class.
+Tell constructor to excpect things (the code 5.), these are parameters. the pName/pAddr set the data members. 
+After this pName disappears but name stays forever.
+..............
+Streams - a sequence of bytes, Stream class is the superclass of a series of utility classes for handing data 
+streams. Stream and its subclasses have a namespace. (the Code 6.)
+StreamRead is used to read from Text files. The constructor is passed the filename to be opened for reading. 
+(the Code 7.)
+To read whole stream line by like use EndOfStream. When it becomes true there is no more data in the stream. 
+(the Code 8.)
+Always close streams when you dont need em (the Code 9.)
+To extract data from a string you can break it up using a Split method. (the Code 10.)
+..............
+Encapsulation - refers to the grouping together of data/behavior related to that data into an object. data isnt 
+directly accessible, only through public methods (called 'data hiding'). Treat objects as 'black box.' This 
+is for integrity through data validation, flexibility, easier maintenance.
+Accessible through:
+- accessors, to retrieve data (get)
+- mutators, to change data (set) (the Code 11.)
+This allows data integrity, checking if data is valid before it's assigned to a data member. mutators can 
+have code in them to check the valitatly.
+..............
+Properties - in C# there is a single member of a object that acts as a mutator and accessor. (the Code 12.) Use 
+the property as you would a data member. Visual studio has refactor.
+..............
+Collections - a dynamic data structure used for grouping together related data members. Easier and safer.
+..............
+List - liniar collection of objects. List starts at 0, can grow and shrink. Can specify the class of objects 
+it will hold. You can go through whole List by using a for or foreach List (the Code 13. )
+..............
+Dictionary - an associative array. Dictionarys allow storage of data based on a key and constant time O(i) 
+lookups. (the Code 14.) 
+..............
+Abstract_Data_Type(ADT) - describes an object by:
+      : it's behaviour, the operations that can be proformed on it.
+      : it's values, a set of allowed states. 
+How is the data stored? the details arent specified. ADT isolates an object from its implementation.
+..............
+Interface - a contact for an ADT - any class that implements a particular interface guarantees that it 
+will behave in a particular way to a specified set of messages. It guarantees to implement specific things 
+(methods, properties, indexers, delegates, events). When classes implement an interface they guarantee to 
+satisfy the required behaviour for that interface. Interfaces only define abstract methods (headers) only, 
+not how they should be implemented. (the Code15)
+..............
+Sorting_Overview - a lot of different sort algorithms used for sorting. some simple for small quants, some complex for 
+large quants. The O-Notation(Big O) describes the worst-case scenario. 
+- O(n) has liniar complexity, time taken to proform increases as size does.
+- O(n2) has Quadratic complexity, time taken to proform will grow to the square of the number of processed 
+item.
+//bubble sort, selection sort, insertion sort
+- O(n log n) more complex but scale better that O(n2) as quantity of data increases. 
+//heap sort, merge sort, quick sort.
+Many things effect processing speed like complexity, memory, space restraints, or maybe if values are being 
+swapped. 
+Stable sort - doesnt change the relative order of items which all have the same key. (bubble, insertion, 
+bucket, merge, binary tree)
+- Unstable sorts may change that relaitive order. (selection, shell, heap and quick sort.)
+..............
+C#_Sort - we use a "tuned" QuickSort [O( n log n )] to proform well on a range of data. 
+Array class has methods for sorting arrays of values and references.
+List class has a build in sort method. (the Code 16.) C# cant guess which way to sort a list, there must be a 
+mechanism in which we can tell Array.Sort how to order the objects. 
+Can use IComparable interface.  Needs a CompareTo( ) method which takes a parameter of an object of the same 
+class and returns an int. For strings and doubles use CompareTo( ); (the Code 17.) negitive value if current 
+object is less then para obj. 0 is they're equal. positive value if current obj is more than parameter obj.
+Can also use IComparer( ) interface. 
+..............
+Data_Structures - a way of sorting info. There is Array, List, Dictionary, Stacks and Queues.
+..............
+Stack - similar to list, but data items are inserted and removed from one end only. Last in First out (LIFO). 
+Widely used in computing. The 3 major operations proformed on a stack: 
+      : Push - an operation that puches a data item onto the top of the stack (adds it to the front of the 
+        list)
+      : Pop - returns the data item at the top of the stack (front of list) and removes it from the stack.
+      : a Test - to check if stack is empty (use Count).
+(the Code 19.)
+.............. 
+Reverse_Polish_Notation(RPN) - A way of writing arithmetic expresstions. Data is pushed on a stack, and 
+operators pop the required number of operands off the stack, then push the result back on the stack!
+RPN                          Infix
+4 6 +                        4+6
+5 6 7 + + n              5+(6+7)
+25 2 + 7 -                (25 + 2) - 7
+4 6 + 7 8 - *             (4 + 6) * (7 – 8)
+..............
+Queue - a data structure similar to list, except data items are inserted at one end (tail) and removed from 
+other end (head). First in First out - FIFO. Widely used in computing. (the Code20.) 3 major operations:
+    : enqueue - an operation that adds a data item onto the tail of the queue.
+    : dequeue - returns the data item at the head of the queue and removes it from the queue.
+    : test - test to see if queue is empty. 
+..............
+Constructors_2 - special method that is called in the process of creating an instance of a class. Only used 
+during creation. By defalt data fields have defult values, and constructors can have methods to custom them.
+Has same name as class, no return type. (the Code 21.)
+..............
+Method_Overloading - Modern languages allow multiple methods with identical names but onlt if the parameter list is different. 
+This is reffered to as method overloading. Can be done with many methods, including constructors.
+..............
+Method_Signature - The signature of a method is the name of the method along with its parameter list. In C# the sign is what 
+defines the method, not just the name. Signs must be unique. Parameter order, number and type are importent 
+to the uniqueness, parameter names are ignored. 
+..............
+FINISH_LECTURE_10 - DO LECTURE 11
+..............
+Pattern - a abstraction from a concrete form which keeps recurring in specific non-arbitrary contexts. FINISH 
+LECTURE 12
+..............
+Gui_Apps_with_Forms - Create a new Windows Form Application and then we have a new form designer. Toolbox 
+button brings up a list of Visual Components you can add to your form. Pin keeps it expanded. F7 shows the 
+source for the Form, shift F7 takes us back to the designer. Click the form to examine its properties and 
+change what you want. The Applicaton class sets defaults and opens the Form.
+..............
+Partical_Class - where declaretions of a class can be spead over multiple source files. 
+..............
+Event - something that happens like a keypress, a button click, a disk inserted, network data received, a 
+menu item selected etc. We've been using sequential where our program dictates the sequence of events. 
+Close the form, double click the button you made (and name that button close) (the Code 22.2). You can also 
+do message boxes. (the Code 23.) 
+..............
+Where's_the_solution? Look in the VS 2015 Directory in Documents dir, your project is under Projects Directory, 
+look in bin/debug dir in your app dir. Double click on the assembly executable to run it under the CLR. From 
+the Projext menu select Project's properties, choose icon for project, rebuild project and refresh the Dir to 
+see your icon on the executable.
+..............
+Default,Cancel&Tab_Order - to change tab order go to view menu, then choose tab order. From has 2 special 
+buttons that can be assigned, the AcceptButton will be auto "pressed" when Enter is pressed, the CancelButton 
+will be auto "pressed" when Escape is pressed. 
+..............
+Rich_TextBox - component to display multi lines of text. To add strings use, newline, to clear and access 
+lines use (the Code 24.). If the content takes more than a screenful use (the Code 25.) to scroll to the end. 
+..............
+ComboBox - use to select an item from the dropdown list, has a sort property, the Items property is a 
+collection of objects, the ToString( ) method determines what is displayed in the list. Comboboxes can also 
+store static collections of strings if that is all that is required. (the Code 26.) to add an object use (the 
+Code 27.) The designer creates the code for creating the Visual Components in form.Designer.cs. 
+..............
+SelectedIndex - can be used to select which object is currently displayed. Reading SelectedIndex indicates the 
+currently selected object. the list index is 0 based. -1 indicates on object has not been selected. 
+..............
+DropDownStyle - Simple, list always visable, can add new items. DropDown, can enter new item or select one 
+from the list. DropDownList, can only select item from the list. 
+Selected object can be retrieved using the SelectedItem Property, returns null if nothing is selected. Always 
+cast the object to the appropriate type (the Code 28.). Can also retrevie using the SelectedIndex Property as 
+an indext to Items. (the Code 29.)
+..............
+GroupBox - a bordered container for other visual componented (e.g Radio Buttons), the group box can have a 
+caption.
+..............
+Menubar - Add a MenuStrip to your form, click on the empty menubar under the title at the top of your form, a 
+textbox will appear, where is says Type Here type File, other textboxes appear to right and under your File 
+menu item. a '-' appears as a horizontal divider. From the designer click once on the About menuItem, in the 
+properties window you will see the menuItem properties, in the menu select Events, create a click event for 
+the About menuItem, then run the application. Each MenuItem can have a Shortcut key attached. Select the 
+properties for the Quit menuItem, and a Shortcut key (Ctrl+Q) to the quit menuItem, add Shortcut key F1 for 
+you About menuItem.
+..............
+Static - a constant, never changes for that object. Same for all the objects made of that class. A class 
+member. Instances can use class members, they have direct access. Always use the class object to refer to the 
+static class member. Because static members are decleared as class members we don't need to create instances 
+to use them. (the Code 30.)
+..............
+string.Format - used to produce formatted Strings from its parameters, can use toString to print data members 
+easier (the Code 31.)
+..............
+Enumerations - a user define type consisting of a set of named constants called anumerators (th Code 32.) If 
+only for one class decleare inside class body, for for namespace decleare in the namspace outside the class 
+body. Accessed by their typename a dot then the constant name. (the Code 33.) Each nammed enum corresponds to 
+a value in an underlying int data type, by default the is 0. Can change values. Use anywhere an int can be 
+used. enum can be casj to an int type and int type can be cast as an enum.
+..............

@@ -1,0 +1,67 @@
+\\sit.inet\sit\home\students\2014002528\visual studio 2015\Projects\notes\notes\bin\Debug\notes.exe.config
+\\sit.inet\sit\home\students\2014002528\visual studio 2015\Projects\notes\notes\bin\Debug\notes.exe
+\\sit.inet\sit\home\students\2014002528\visual studio 2015\Projects\notes\notes\bin\Debug\notes.pdb
+\\sit.inet\sit\home\students\2014002528\visual studio 2015\Projects\notes\notes\obj\Debug\notes.csprojResolveAssemblyReference.cache
+\\sit.inet\sit\home\students\2014002528\visual studio 2015\Projects\notes\notes\obj\Debug\notes.Form1.resources
+\\sit.inet\sit\home\students\2014002528\visual studio 2015\Projects\notes\notes\obj\Debug\notes.Properties.Resources.resources
+\\sit.inet\sit\home\students\2014002528\visual studio 2015\Projects\notes\notes\obj\Debug\notes.csproj.GenerateResource.Cache
+\\sit.inet\sit\home\students\2014002528\visual studio 2015\Projects\notes\notes\obj\Debug\notes.exe
+\\sit.inet\sit\home\students\2014002528\visual studio 2015\Projects\notes\notes\obj\Debug\notes.pdb
+F:\C#\204 labs\..notes\notes\bin\Debug\notes.exe.config
+F:\C#\204 labs\..notes\notes\obj\Debug\notes.exe
+F:\C#\204 labs\..notes\notes\obj\Debug\notes.pdb
+F:\C#\204 labs\..notes\notes\bin\Debug\notes.exe
+F:\C#\204 labs\..notes\notes\bin\Debug\notes.pdb
+F:\C#\204 labs\..notes\notes\obj\Debug\notes.csprojResolveAssemblyReference.cache
+F:\C#\204 labs\..notes\notes\obj\Debug\notes.Form1.resources
+F:\C#\204 labs\..notes\notes\obj\Debug\notes.Properties.Resources.resources
+F:\C#\204 labs\..notes\notes\obj\Debug\notes.csproj.GenerateResource.Cache
+\\Client\D$\C#\204 labs\..notes\notes\bin\Debug\notes.exe.config
+\\Client\D$\C#\204 labs\..notes\notes\obj\Debug\notes.exe
+\\Client\D$\C#\204 labs\..notes\notes\obj\Debug\notes.pdb
+D:\C#\204 labs\..notes\notes\bin\Debug\notes.exe.config
+D:\C#\204 labs\..notes\notes\bin\Debug\notes.exe
+D:\C#\204 labs\..notes\notes\bin\Debug\notes.pdb
+D:\C#\204 labs\..notes\notes\obj\Debug\notes.csprojResolveAssemblyReference.cache
+D:\C#\204 labs\..notes\notes\obj\Debug\notes.Form1.resources
+D:\C#\204 labs\..notes\notes\obj\Debug\notes.Properties.Resources.resources
+D:\C#\204 labs\..notes\notes\obj\Debug\notes.csproj.GenerateResource.Cache
+D:\C#\204 labs\..notes\notes\obj\Debug\notes.exe
+D:\C#\204 labs\..notes\notes\obj\Debug\notes.pdb
+G:\204 labs\..notes\notes\bin\Debug\notes.exe.config
+G:\204 labs\..notes\notes\bin\Debug\notes.exe
+G:\204 labs\..notes\notes\bin\Debug\notes.pdb
+G:\204 labs\..notes\notes\obj\Debug\notes.csprojResolveAssemblyReference.cache
+G:\204 labs\..notes\notes\obj\Debug\notes.Form1.resources
+G:\204 labs\..notes\notes\obj\Debug\notes.Properties.Resources.resources
+G:\204 labs\..notes\notes\obj\Debug\notes.csproj.GenerateResource.Cache
+G:\204 labs\..notes\notes\obj\Debug\notes.exe
+G:\204 labs\..notes\notes\obj\Debug\notes.pdb
+C:\Users\Kyla\Documents\204 labs with notes\..notes\notes\bin\Debug\notes.exe.config
+C:\Users\Kyla\Documents\204 labs with notes\..notes\notes\bin\Debug\notes.exe
+C:\Users\Kyla\Documents\204 labs with notes\..notes\notes\bin\Debug\notes.pdb
+C:\Users\Kyla\Documents\204 labs with notes\..notes\notes\obj\Debug\notes.csprojResolveAssemblyReference.cache
+C:\Users\Kyla\Documents\204 labs with notes\..notes\notes\obj\Debug\notes.Form1.resources
+C:\Users\Kyla\Documents\204 labs with notes\..notes\notes\obj\Debug\notes.Properties.Resources.resources
+C:\Users\Kyla\Documents\204 labs with notes\..notes\notes\obj\Debug\notes.csproj.GenerateResource.Cache
+C:\Users\Kyla\Documents\204 labs with notes\..notes\notes\obj\Debug\notes.exe
+C:\Users\Kyla\Documents\204 labs with notes\..notes\notes\obj\Debug\notes.pdb
+C:\Users\student\Desktop\..notes\notes\bin\Debug\notes.exe.config
+C:\Users\student\Desktop\..notes\notes\obj\Debug\notes.exe
+C:\Users\student\Desktop\..notes\notes\obj\Debug\notes.pdb
+C:\Users\student\Desktop\..notes\notes\bin\Debug\notes.exe
+C:\Users\student\Desktop\..notes\notes\bin\Debug\notes.pdb
+C:\Users\student\Desktop\..notes\notes\obj\Debug\notes.csprojResolveAssemblyReference.cache
+C:\Users\student\Desktop\..notes\notes\obj\Debug\notes.Form1.resources
+C:\Users\student\Desktop\..notes\notes\obj\Debug\notes.Properties.Resources.resources
+C:\Users\student\Desktop\..notes\notes\obj\Debug\notes.csproj.GenerateResource.Cache
+F:\Study\IT Year 1\1 IT502 Programming\..204 labs with notes\..notes\notes\bin\Debug\notes.exe.config
+F:\Study\IT Year 1\1 IT502 Programming\..204 labs with notes\..notes\notes\bin\Debug\notes.exe
+F:\Study\IT Year 1\1 IT502 Programming\..204 labs with notes\..notes\notes\bin\Debug\notes.pdb
+F:\Study\IT Year 1\1 IT502 Programming\..204 labs with notes\..notes\notes\obj\Debug\notes.csprojAssemblyReference.cache
+F:\Study\IT Year 1\1 IT502 Programming\..204 labs with notes\..notes\notes\obj\Debug\notes.Form1.resources
+F:\Study\IT Year 1\1 IT502 Programming\..204 labs with notes\..notes\notes\obj\Debug\notes.Properties.Resources.resources
+F:\Study\IT Year 1\1 IT502 Programming\..204 labs with notes\..notes\notes\obj\Debug\notes.csproj.GenerateResource.cache
+F:\Study\IT Year 1\1 IT502 Programming\..204 labs with notes\..notes\notes\obj\Debug\notes.csproj.CoreCompileInputs.cache
+F:\Study\IT Year 1\1 IT502 Programming\..204 labs with notes\..notes\notes\obj\Debug\notes.exe
+F:\Study\IT Year 1\1 IT502 Programming\..204 labs with notes\..notes\notes\obj\Debug\notes.pdb
